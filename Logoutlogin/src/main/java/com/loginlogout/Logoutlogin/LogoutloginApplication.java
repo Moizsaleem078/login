@@ -7,7 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class LogoutloginApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(LogoutloginApplication.class, args);
+		//SpringApplication.run(LogoutloginApplication.class, args);
+		System.out.println("sdasd");
 		myclass m=new myclass();
 	    myclass.getmy();
 	}
